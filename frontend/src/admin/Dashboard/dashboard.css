@@ -1,0 +1,43 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .box {
+    margin-left: 20px;
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+
+    &:hover {
+      background-color: lightgreen;
+    }
+  }
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-content .box {
+  margin-left: 20px;
+  background-color: darkgreen;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.main-content .box:hover {
+  background-color: #123617fb; /* LimeGreen for a brighter hover effect */
+}
